@@ -15,8 +15,8 @@ $y^\varnothing$ is a concise response, $y^{\text{L}}$ is a detailed response, an
 </em></p>
 
 ## Dataset Details
-
-the samples are formatted as follows:
+The dataset can be found in the `data` directory or downloaded from [Hugging Face](https://huggingface.co/datasets/THU-KEG/RM-Bench).
+The samples are formatted as follows:
 
 ```json
 {
