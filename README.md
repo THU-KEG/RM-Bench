@@ -124,6 +124,16 @@ def compute_accuracy(results: List[Dict[str, Any]]) -> Dict[str, float]:
 
 more details about the dataset can be found in our paper.
 
+# Citation
+If you feel this dataset is helpful, please cite the following paper:
+```
+@article{liu2024rm,
+  title={RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style},
+  author={Liu, Yantao and Yao, Zijun and Min, Rui and Cao, Yixin and Hou, Lei and Li, Juanzi},
+  journal={arXiv preprint arXiv:2410.16184},
+  year={2024}
+}
+```
 
 ## ACKNOWLEDGEMENT
 We deeply appreciate the tremendous effort of the authors of [Reward Bench](github.com/allenai/reward-bench/tree/main) for providing the codebase and the dataset.
