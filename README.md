@@ -1,6 +1,6 @@
 # RM-Bench
 
-This repository contains the data of the paper "*RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style*"
+This repository contains the data of the ICLR 24 Oral Paper "*RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style*"
 
 ## Introduction
 We introduce RM-Bench, a benchmark dataset for evaluating reward models of language modeling.
