@@ -4,7 +4,7 @@ This repository contains the data of the ICLR 25 Oral Paper "*RM-Bench: Benchmar
 
 ## 🔥News
 
-- [2025/03/06] We have established a partnership with [AGI-Eval](https://agi-eval.cn/mvp/home) platform. All subsets of RM-Bench are now available on [AGI-Eval](https://agi-eval.cn/evaluation/OlympicArena?id=57)!
+- [2025/03/06] We have established a partnership with **AGI-Eval** platform. All results of RM-Bench are now available on [AGI-Eval](https://agi-eval.cn/evaluation/OlympicArena?id=57)!
 - [2025/01/23] Our paper has been accepted by ICLR 2025 as Oral! See u in SGP!! 🎉
 
 ## Introduction
