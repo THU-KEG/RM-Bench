@@ -2,9 +2,9 @@
 
 This repository contains the data of the ICLR 25 Oral Paper "*RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style*"
 
-## Announcing New SOTA Baselines: DPSK-R1 Scores Released on RM-Bench
+## Announcing New Baselines: DPSK-R1 Scores Released on RM-Bench
 
-To facilitate research in Reward Modeling—especially for Generative Reward Models—we are pleased to announce that we have released the performance scores of a new state-of-the-art baseline, **DPSK-R1**, on RM-Bench.
+To facilitate research in Reward Modeling—especially for Generative Reward Models—we are pleased to announce that we have released the performance scores of a new strong baseline, **DPSK-R1**, on RM-Bench.
 
 ### DPSK-R1 Results
 
