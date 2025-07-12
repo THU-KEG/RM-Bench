@@ -4,7 +4,7 @@ This repository contains the data of the ICLR 25 Oral Paper "*RM-Bench: Benchmar
 
 ## 🔥News
 
-- [2025/07/12] 🎯 The RM-Bench Leaderboard is now **publicly available**! Check it out at [RM-Bench Leaderboard](https://github.com/THU-KEG/RM-Bench-Leaderboard).
+- [2025/07/12] 🎯 The RM-Bench Leaderboard is now **publicly available**! Check it out and submit your result at [RM-Bench Leaderboard](https://github.com/THU-KEG/RM-Bench-Leaderboard)!
 - [2025/03/06] We have established a partnership with **AGI-Eval** platform. All results of RM-Bench are now available on [AGI-Eval](https://agi-eval.cn/evaluation/detail?id=57)!
 - [2025/01/23] Our paper has been accepted by ICLR 2025 as Oral! See u in SGP!! 🎉
 
