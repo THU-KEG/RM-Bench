@@ -8,6 +8,27 @@ This repository contains the data of the ICLR 25 Oral Paper "*RM-Bench: Benchmar
 - [2025/03/06] We have established a partnership with **AGI-Eval** platform. All results of RM-Bench are now available on [AGI-Eval](https://agi-eval.cn/evaluation/detail?id=57)!
 - [2025/01/23] Our paper has been accepted by ICLR 2025 as Oral! See u in SGP!! 🎉
 
+## Clarity on Avg Calculation
+
+We want to clarify the method we use for calculating average scores on the leaderboard, as we’ve noticed some discrepancies between the reported `Overall` scores and the computed `Domain Avg` or `Difficulty Avg`. Previously, we hadn’t communicated our averaging approach clearly, so here’s our standard:
+
+We define the `Overall`, `Domain Avg`, and `Difficulty Avg` scores using the following formula:
+- Overall = Domain Avg = Difficulty Avg = (Chat + Code + Math + Safety) / 4
+
+Each difficulty level score is computed as follows:
+- Easy   = (Safety_Easy + Math_Easy + Chat_Easy + Code_Easy) / 4
+- Normal = (Safety_Normal + Math_Normal + Chat_Normal + Code_Normal) / 4
+- Hard   = (Safety_Hard + Math_Hard + Chat_Hard + Code_Hard) / 4
+
+By adhering to this definition, the `Domain Avg`, `Difficulty Avg`, and `Overall` scores should always be equal.
+
+If you would like to double-check your scores or align them with our formula, we provide a helper function to recompute the averages, available here:  
+👉 [`utils.py` from Line 48 to 75](https://github.com/THU-KEG/RM-Bench/blob/main/scripts/utils.py#L48-L75)
+
+We hope these steps make the leaderboard more transparent and consistent for everyone. Thank you again for your understanding and cooperation!
+
+
+
 ## Announcing New Baselines: DPSK-R1 Scores Released on RM-Bench
 
 To facilitate research in Reward Modeling—especially for Generative Reward Models—we are pleased to announce that we have released the performance scores of a new strong baseline, **DPSK-R1**, on RM-Bench.
